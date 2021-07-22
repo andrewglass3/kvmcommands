@@ -15,7 +15,7 @@ Example output:
 <graphics type='vnc' port='5900' autoport='yes' listen='127.0.0.1'>
 
 
-****Create ssh port forward to connect vnc over****
+**Create ssh port forward to connect vnc over**
 
 ssh andrew@192.168.0.2 -L 5900:127.0.0.1:5900
 
@@ -72,7 +72,7 @@ Virus edit Ubuntu-18.04
 
 cd /var/lib/libvirt/images/
 
-# qemu-img create -f raw myRHELVM1-disk2.img 7G
+ qemu-img create -f raw myRHELVM1-disk2.img 7G
 Formatting 'Ubuntu-18.04-disk2.img', fmt=raw size=7516192768
 
 **Attach newly created disk **
