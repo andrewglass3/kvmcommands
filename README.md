@@ -60,7 +60,7 @@ virsh shutdown Ubuntu-18.04
 
 **Edit vm**
 
-Virus edit Ubuntu-18.04
+Virsh edit Ubuntu-18.04
 
 **Edit line <memory unit='KiB'>4194304</memory>**
 
